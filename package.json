@@ -1,0 +1,31 @@
+{
+    "name": "varius",
+    "version": "0.1.0",
+    "description": "Node.js and Socket.io powered presentation app",
+    "private": true,
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "test": "jasmine-node --verbose tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waltzofpearls/varius.git"
+    },
+    "keywords": [
+        "Presentation",
+        "Slides"
+    ],
+    "author": "Waltz.of.Pearls <rollie@topbasslabs.com, rollie.ma@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/waltzofpearls/varius/issues"
+    },
+    "homepage": "https://github.com/waltzofpearls/varius",
+    "dependencies": {
+        "express": "4.*"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
