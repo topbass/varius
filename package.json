@@ -23,7 +23,9 @@
     },
     "homepage": "https://github.com/waltzofpearls/varius",
     "dependencies": {
-        "express": "4.*"
+        "express": "4.*",
+        "mongoose": "3.8.*",
+        "socket.io": "1.2.*"
     },
     "engines": {
         "node": ">=0.10.0"
