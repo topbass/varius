@@ -18,7 +18,7 @@
     "url": "https://github.com/waltzofpearls/varius/issues"
   },
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "DEBUG=varius node ./bin/www",
     "test": "jasmine-node --verbose tests"
   },
   "dependencies": {
